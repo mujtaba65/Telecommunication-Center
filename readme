@@ -1,0 +1,19 @@
+Program Author:
+		Mujtaba Mujtaba
+		101167348
+
+Purpose:The purpose of this program is to represent a call center which has subscribers, now the call logs for only the subscribers are saved. If neither the source or destination are not subscribes this wont be stored anywhere. Telco is the company which stores the data for all calls, and subscribers, there incoming and outgoing calls respectively. Now telco is comprised of multiple classes, with each classes role being explained in the header of each class.
+
+source files: Time.cc, View.cc, Call.cc, Telco.cc, Subscriber.cc, Array.cc, Date.cc, Control.cc, main.cc
+
+header files: Time.h, View.h, Call.h, Telco.h, Subscriber.h, Array.h, Date.h, Control.h
+
+compilation: make
+to remove .o files: make clean
+
+to execute: ./telco
+
+after executing:
+	4 options to choose from: pick a nuumber 0 to 3
+	if you choose 1 or 2, you can type all or a number..
+
